@@ -53,6 +53,7 @@ console.log(myCurrentjob);
 // const heightMark = 1.69;
 // const massJohn = 92;
 // const heightJohn = 1.95;
+
 const massMark = 95;
 const heightMark = 1.88;
 const massJohn = 85;
@@ -63,3 +64,15 @@ const BMIJohn = massJohn / (heightJohn * heightJohn);
 const markHigherBMI = BMIMark > BMIJohn;
 
 console.log(BMIMark,BMIJohn, markHigherBMI);
+
+const weightEGO = 215;
+const heightEGO = 5.7;
+
+const weightEppy = 190;
+const heightEppy = 5.5;
+
+const BMIego = weightEGO / heightEGO ** 2;
+const BMIeppy = weightEppy / (heightEppy * heightEppy);
+const egoHigherBMI = BMIego > BMIeppy;
+
+console.log(BMIeppy,BMIego,egoHigherBMI);
