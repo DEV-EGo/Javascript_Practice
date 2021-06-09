@@ -121,4 +121,5 @@ const spaceX = 'elon musk';
 
 const RichLifeStyle = 'Millionaire';
 
-const flex = " "
+const flex = amazon + " will be going to space " + "because he is a " + RichLifeStyle + " the shuttle will be borrowed " + spaceX;
+console.log(flex);
