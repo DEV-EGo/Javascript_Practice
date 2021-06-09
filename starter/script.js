@@ -77,49 +77,63 @@ console.log(myCurrentjob);
 
 // console.log(BMIeppy,BMIego,egoHigherBMI);
 
-const firstName ='Edwin';
-const job = 'Dev';
-const birthYear = 1993;
-const Year = 2021;
+// const firstName ='Edwin';
+// const job = 'Dev';
+// const birthYear = 1993;
+// const Year = 2021;
 
-const Edwin = "I'm " + firstName + ' , a ' + (Year - birthYear) + ' years old ' + job + '!';
-console.log(Edwin);
+// const Edwin = "I'm " + firstName + ' , a ' + (Year - birthYear) + ' years old ' + job + '!';
+// console.log(Edwin);
 
-const EdwinNew = `I'm ${firstName}, a ${Year - birthYear} years old ${job}!'`;
-console.log(EdwinNew);
+// const EdwinNew = `I'm ${firstName}, a ${Year - birthYear} years old ${job}!'`;
+// console.log(EdwinNew);
 
-console.log(`just a regular string...`);
+// console.log(`just a regular string...`);
 
 // multi line string below --------->>
-console.log(`string with \n\
-multiple \n\
-lines`);
+// console.log(`string with \n\
+// multiple \n\
+// lines`);
 
-console.log(`second string
-with multiple
-lines`);
+// console.log(`second string
+// with multiple
+// lines`);
 // template literal can assemble multiple pieces into one final string
 
 
-const cashflow = 'payso';
-const server = 'discord';
-const releasedate = 2018;
+// const cashflow = 'payso';
+// const server = 'discord';
+// const releasedate = 2018;
 
-const user_name = "Welcome " + cashflow + ' Please enter ' + server;
-console.log(user_name);
+// const user_name = "Welcome " + cashflow + ' Please enter ' + server;
+// console.log(user_name);
 
 // more practice continued
 
-const VideoGame = 'game system';
-const Audience = 'millenials';
+// /* const VideoGame = 'game system';
+// const Audience = 'millenials';
 
-const readyPlayerOne = "Please choose what to play " + VideoGame + " age group ?" + Audience;
-console.log(readyPlayerOne);
+// const readyPlayerOne = "Please choose what to play " + VideoGame + " age group ?" + Audience;
+// console.log(readyPlayerOne);
 
-const amazon = 'jeff bezoz';
-const spaceX = 'elon musk';
+// const amazon = 'jeff bezoz';
+// const spaceX = 'elon musk';
 
-const RichLifeStyle = 'Millionaire';
+// const RichLifeStyle = 'Millionaire';
 
-const flex = amazon + " will be going to space " + "because he is a " + RichLifeStyle + " the shuttle will be borrowed " + spaceX;
-console.log(flex);
+// const flex = amazon + " will be going to space " + "because he is a " + RichLifeStyle + " the shuttle will be borrowed " + spaceX;
+// console.log(flex);
+// /*
+
+
+const age = 15;
+const isOldEnough = age >= 18;
+
+// const age = 15;
+
+if (age >= 18){
+    console.log(`sarah can start driving`)
+}else {
+    const yearsLeft = 18 - age;
+    console.log(`sarah is to young. wait another ${yearsLeft} years :)`);
+}
