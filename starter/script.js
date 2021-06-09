@@ -54,25 +54,71 @@ console.log(myCurrentjob);
 // const massJohn = 92;
 // const heightJohn = 1.95;
 
-const massMark = 95;
-const heightMark = 1.88;
-const massJohn = 85;
-const heightJohn = 1.76;
+// const massMark = 95;
+// const heightMark = 1.88;
+// const massJohn = 85;
+// const heightJohn = 1.76;
 
-const BMIMark = massMark / heightMark ** 2;
-const BMIJohn = massJohn / (heightJohn * heightJohn);
-const markHigherBMI = BMIMark > BMIJohn;
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// const markHigherBMI = BMIMark > BMIJohn;
 
-console.log(BMIMark,BMIJohn, markHigherBMI);
+// console.log(BMIMark,BMIJohn, markHigherBMI);
 
-const weightEGO = 215;
-const heightEGO = 5.7;
+// const weightEGO = 215;
+// const heightEGO = 5.7;
 
-const weightEppy = 190;
-const heightEppy = 5.5;
+// const weightEppy = 190;
+// const heightEppy = 5.5;
 
-const BMIego = weightEGO / heightEGO ** 2;
-const BMIeppy = weightEppy / (heightEppy * heightEppy);
-const egoHigherBMI = BMIego > BMIeppy;
+// const BMIego = weightEGO / heightEGO ** 2;
+// const BMIeppy = weightEppy / (heightEppy * heightEppy);
+// const egoHigherBMI = BMIego > BMIeppy;
 
-console.log(BMIeppy,BMIego,egoHigherBMI);
+// console.log(BMIeppy,BMIego,egoHigherBMI);
+
+const firstName ='Edwin';
+const job = 'Dev';
+const birthYear = 1993;
+const Year = 2021;
+
+const Edwin = "I'm " + firstName + ' , a ' + (Year - birthYear) + ' years old ' + job + '!';
+console.log(Edwin);
+
+const EdwinNew = `I'm ${firstName}, a ${Year - birthYear} years old ${job}!'`;
+console.log(EdwinNew);
+
+console.log(`just a regular string...`);
+
+// multi line string below --------->>
+console.log(`string with \n\
+multiple \n\
+lines`);
+
+console.log(`second string
+with multiple
+lines`);
+// template literal can assemble multiple pieces into one final string
+
+
+const cashflow = 'payso';
+const server = 'discord';
+const releasedate = 2018;
+
+const user_name = "Welcome " + cashflow + ' Please enter ' + server;
+console.log(user_name);
+
+// more practice continued
+
+const VideoGame = 'game system';
+const Audience = 'millenials';
+
+const readyPlayerOne = "Please choose what to play " + VideoGame + " age group ?" + Audience;
+console.log(readyPlayerOne);
+
+const amazon = 'jeff bezoz';
+const spaceX = 'elon musk';
+
+const RichLifeStyle = 'Millionaire';
+
+const flex = " "
