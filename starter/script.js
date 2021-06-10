@@ -139,8 +139,23 @@ if (age >= 18){
 }
 
 
-if() {
+const stock = 200;
+const outofStock = stock >= 201;
 
-} else{
-
+if(stock >= 210){
+    console.log(`we still have sizes left`)
+}else{
+    const stillInStock = 201 - stock;
+    console.log(`we are out of stock ${stillInStock}`);
 }
+
+const yearOfBirth = 1993;
+let Century;
+
+if (yearOfBirth <= 2000) {
+    Century = 20;
+}else{
+    Century = 21;
+}
+
+console.log(Century);
