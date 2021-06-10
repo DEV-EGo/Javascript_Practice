@@ -1,43 +1,46 @@
 
-const age = 15;
-const isOldEnough = age >= 18;
-
 // const age = 15;
-
-if (age >= 18){
-    console.log(`sarah can start driving`)
-}else {
-    const yearsLeft = 18 - age;
-    console.log(`sarah is to young. wait another ${yearsLeft} years :)`);
-}
+// const isOldEnough = age >= 18;
 
 
-const stock = 200;
-const outofStock = stock >= 201;
+// if (age >= 18){
+//     console.log(`sarah can start driving`)
+// }else {
+//     const yearsLeft = 18 - age;
+//     console.log(`sarah is to young. wait another ${yearsLeft} years :)`);
+// }
 
-if(stock >= 210){
-    console.log(`we still have sizes left`)
-}else{
-    const stillInStock = 201 - stock;
-    console.log(`we are out of stock ${stillInStock}`);
-}
 
-const yearOfBirth = 1993;
-let Century;
+// const stock = 200;
+// const outofStock = stock >= 201;
 
-if (yearOfBirth <= 2000) {
-    Century = 20;
-}else{
-    Century = 21;
-}
+// if(stock >= 210){
+//     console.log(`we still have sizes left`)
+// }else{
+//     const stillInStock = 201 - stock;
+//     console.log(`we are out of stock ${stillInStock}`);
+// }
 
-console.log(Century);
+// const yearOfBirth = 1993;
+// let Century;
 
-const pet = `dog`;
-let bark;
+// if (yearOfBirth <= 2000) {
+//     Century = 20;
+// }else{
+//     Century = 21;
+// }
 
-if(pet){
-    bark;
-}else{
-    false
-}
+// console.log(Century);
+
+// =================================================================
+
+const massMark = 95;
+const heightMark = 1.88;
+const massJohn = 85;
+const heightJohn = 1.76;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+const markHigherBMI = BMIMark > BMIJohn;
+
+console.log(BMIMark, BMIJohn, markHigherBMI);
