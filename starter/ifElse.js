@@ -34,10 +34,10 @@
 
 // =================================================================
 
-const massMark = 78;
-const heightMark = 1.69;
-const massJohn = 92;
-const heightJohn = 1.95;
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
 
 
 // const massMark = 95;
@@ -45,15 +45,37 @@ const heightJohn = 1.95;
 // const massJohn = 85;
 // const heightJohn = 1.76;
 
-const BMIMark = massMark / heightMark ** 2;
-const BMIJohn = massJohn / (heightJohn * heightJohn);
-const markHigherBMI = BMIMark > BMIJohn;
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// const markHigherBMI = BMIMark > BMIJohn;
 
-console.log(BMIMark, BMIJohn);
+// console.log(BMIMark, BMIJohn);
 
 // if else statement
-if(BMIMark > BMIJohn){
-    console.log(`marks BMI is higher that johns`);
-}else{
-    console.log(`johns BMI is higher than marks`);
-}
+// if(BMIMark > BMIJohn){
+//     console.log(`marks BMI (${BMIMark}) is higher that johns (${BMIJohn})`);
+// }else{
+//     console.log(`johns BMI is higher than marks`);
+// }
+
+// ======================= TYPE CONVERSION AND COERSION==========================================
+
+const inputYear = `1991`;
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number(`jonas`));
+console.log(typeof NaN);
+
+console.log(String(23),23);
+
+// type coercion
+
+console.log(`i am ` + 23 + ` years old`);
+console.log(`i am ` + String(23) + ` years old`);
+console.log(`23` / `2`);
+console.log(`23` > `18`);
+
+let n = `1` + 1;
+n = n - 1;
+console.log(n);
