@@ -82,21 +82,35 @@
 
 // 5 falsy values :0, ``,undefined, nullm NaN
 
-console.log(Boolean(0));
-console.log(Boolean(undefined));
-console.log(Boolean(`jonas`));
-console.log(Boolean({}));
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean(`jonas`));
+// console.log(Boolean({}));
 
-const money = 100;
-if(money) {
-    console.log("Dont spend it all ");
-} else {
-    console.log(`You should get a job!`);
-}
+// const money = 100;
+// if(money) {
+//     console.log("Dont spend it all ");
+// } else {
+//     console.log(`You should get a job!`);
+// }
 
-let height = 0;
-if(height) {
-    console.log(`YAY! height is defined`)
-}else {
-    console.log(`Height is UNDEFINED`);
-}
+// let height = 0;
+// if(height) {
+//     console.log(`YAY! height is defined`)
+// }else {
+//     console.log(`Height is UNDEFINED`);
+// }
+
+// const sneakers = 0;
+// if(sneakers){
+//     console.log(`you got kicks`);
+// }else {
+//     console.log(`get your kicks up`);
+// }
+
+const Age = 18;
+
+if(Age === 18)
+console.log(`you became an adult)`);
+
+if(Age == 18) console.log(`you became an adult (loose)`);
