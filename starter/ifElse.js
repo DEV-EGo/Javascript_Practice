@@ -121,4 +121,10 @@ console.log(typeof Favourite);
 
 if (Favourite == 23) {
     console.log(`cool MJ rocked number 23 `);
+}else if( Favourite == 7){
+    console.log(`7 is also a cool number`);
+}else if (Favourite == 9){
+    console.log(`9 is also a cool number`);
+}else {
+    console.log(`Number is not 23 or 7 or 9`);
 }
