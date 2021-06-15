@@ -8,6 +8,7 @@ not specific to just JS
 "NOT" operator acts on only one boolean value
 
 example:
+
     age = 16
     Age is >= 20 (false)
     Age is <= 30 (true)
@@ -20,3 +21,24 @@ example:
 
 
 */
+
+const hasDriversLicense = true; // Variable A
+const hasGoodVision = true; // Variable B
+
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+// determine wether sarah should drive or NOT
+
+if(hasDriversLicense && hasGoodVision) {
+    console.log(`sarah is able to drive`);
+}else{
+    console.log(`some one else should drive`);
+}
+
+const isTired = true; // variable C
+
+console.log(hasDriversLicense && hasGoodVision &&
+isTired);
