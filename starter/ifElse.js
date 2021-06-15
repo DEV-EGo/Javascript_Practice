@@ -111,6 +111,14 @@
 const Age = 18;
 
 if(Age === 18)
-console.log(`you became an adult)`);
+console.log(`you became an adult`);
 
-if(Age == 18) console.log(`you became an adult (loose)`);
+if(Age == 18) console.log(`you became an adult (you loose)`);
+
+const Favourite = prompt("what is your favorite number");
+console.log(Favourite);
+console.log(typeof Favourite);
+
+if (Favourite == 23) {
+    console.log(`cool MJ rocked number 23 `);
+}
