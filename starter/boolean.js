@@ -32,13 +32,19 @@ console.log(!hasDriversLicense);
 
 // determine wether sarah should drive or NOT
 
-if(hasDriversLicense && hasGoodVision) {
+// if(hasDriversLicense && hasGoodVision) {
+//     console.log(`sarah is able to drive`);
+// }else{
+//     console.log(`some one else should drive`);
+// }
+
+const isTired = false; // variable C
+
+console.log(hasDriversLicense && hasGoodVision &&
+isTired);
+
+if(hasDriversLicense && hasGoodVision && !isTired) {
     console.log(`sarah is able to drive`);
 }else{
     console.log(`some one else should drive`);
 }
-
-const isTired = true; // variable C
-
-console.log(hasDriversLicense && hasGoodVision &&
-isTired);
