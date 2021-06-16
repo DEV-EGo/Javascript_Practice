@@ -16,8 +16,8 @@
 
 // BONUS ********
 
-const DolphinsScore = (97 + 112 + 81) / 3;
-const KoalasScore = (109 + 95 + 86) / 3;
+const DolphinsScore = (97 + 112 + 80) / 3;
+const KoalasScore = (109 + 95 + 50) / 3;
 
 console.log(DolphinsScore, KoalasScore);
 
