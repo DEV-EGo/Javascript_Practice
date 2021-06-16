@@ -26,27 +26,17 @@ switch (day)
 
 // if else examples
 
-if (day === 'friday'){
-
+if (day === 'tuesday'){
     console.log(`Plan my course structure`);
     console.log(`Go to coding meet up`);
-
-}else if(day === 'tuesday')
-{
+}else if (day === 'tuesday'){
     console.log(`preprare theory videos`);
-
-}else if(day === 'wednesday' || day === 'thursday')
-{
+}else if (day === 'wednesday' || day === 'thursday'){
     console.log(`Write code examples`);
-
-}else if(day === 'friday')
-{
-    console.log(`Record videos`);
-
-}else if(day === 'saturday' || day === 'sunday')
-{
-    console.log(`Enjoy the weekend `);
-
-}else{
-    console.log(`Not a valid date`);
+}else if (day === 'friday'){
+    console.log(`record videos`);
+}else if (day === 'saturday' || day === 'sunday'){
+    console.log(`enjoy the weekend`)
+}else {
+    console.log(`not a valid date`);
 }
