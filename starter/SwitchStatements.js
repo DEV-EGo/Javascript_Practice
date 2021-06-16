@@ -1,4 +1,4 @@
-const day = `monday`;
+const day = `tuesday`;
 
 switch (day) 
 {
@@ -22,4 +22,31 @@ switch (day)
         break;
     default:
         console.log(`Not a valid date`);
+}
+
+// if else examples
+
+if (day === 'friday'){
+
+    console.log(`Plan my course structure`);
+    console.log(`Go to coding meet up`);
+
+}else if(day === 'tuesday')
+{
+    console.log(`preprare theory videos`);
+
+}else if(day === 'wednesday' || day === 'thursday')
+{
+    console.log(`Write code examples`);
+
+}else if(day === 'friday')
+{
+    console.log(`Record videos`);
+
+}else if(day === 'saturday' || day === 'sunday')
+{
+    console.log(`Enjoy the weekend `);
+
+}else{
+    console.log(`Not a valid date`);
 }
