@@ -40,3 +40,65 @@ if (day === 'tuesday'){
 }else {
     console.log(`not a valid date`);
 }
+// ================== MORE PRACTICE =============================================
+const car = `lamborghini`;
+
+switch (car){
+    case `Bugatti`:
+        console.log(" fastest development car in the world")
+        break;
+    case `ferrari`:
+        console.log(" every rapper has a stallion in red");
+        break;
+    case `lamborghini`:
+        console.log(" lamborghini mercy!")
+        break;
+    case `SUPRA`:
+        console.log("OMG ITS A SUPRAAAAA")
+        break;
+    default:
+        console.log("ride the bus pizza boy")
+}
+
+if(car === 'Coupe'){
+    console.log("lets ride");
+    console.log("start your engine")
+}else if(car === 'Bugatti'){
+    console.log("twin turbo v12 monster")
+}else if(car === 'ferrari'){
+    console.log("red ferrari is a dream car")
+}else if(car === 'lamborghini'){
+    console.log("every one wants a lambo")
+}else if(car === 'SUPRA'){
+    console.log("YOTA GANG GO VROOOOOM")
+}else{
+    console.log("go home pizza boy")
+}
+// ================== MORE PRACTICE =============================================
+const service = "Paint";
+
+switch(service){
+    case `Vinyl Wrap`:
+        console.log("3m certified installers");
+        break;
+    case `Liquid Wrap`:
+        console.log("DYC - Halo FX installers");
+        break;
+    case `Paint`:
+        console.log("Automotive paint")
+        break;
+    default:
+        console.log("you need your car done?")
+}
+
+if(service === `Project`){
+    console.log("new project who this");
+}else if(service === 'Vinyl Wrap'){
+    console.log("3M - Avery film install");
+}else if(service === 'Liquid Wrap'){
+    console.log("plasti dip is the cheapest route")
+}else if(service === 'Paint'){
+    console.log("automotive paint can also be used")
+}else{
+    console.log("you get no new paint job")
+}
