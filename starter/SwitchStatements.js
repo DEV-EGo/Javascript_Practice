@@ -102,3 +102,58 @@ if(service === `Project`){
 }else{
     console.log("you get no new paint job")
 }
+
+
+const Character = 'player three';
+
+switch (Character){
+    case 'player one':
+        console.log("Ready player One");
+            break;
+    case 'player two':
+        console.log("Ready player Two");
+            break;
+    case 'player three':
+        console.log("Ready player Three");
+            break;
+    default:
+        console.log("Choose a player");
+}
+
+if(Character === 'player one'){
+    console.log("Are you ready?");
+}else if(Character === 'player two'){
+    console.log("You have chosen player two");
+}else if(Character === 'player three'){
+    console.log("You have chosen player three");
+}else{
+    console.log("Ready up before you continue");
+}
+// ================== MORE PRACTICE =============================================
+
+const Job = 'Car Mechanic';
+
+switch (Job){
+    case 'Car Mechanic':
+        console.log(" i can weld , paint , vinyl wrap vehicles");
+            break;
+    case 'Contractor':
+        console.log(" i can install floor, carpet,tile");
+            break;
+    case 'Web Developer':
+        console.log(" i am full stack front");
+            break;
+    default:
+        console.log("get a job");
+}
+
+if(Job === 'Contractor'){
+    console.log(" welder, painter, auto basic")
+}else if(Job ==='Contractor'){
+    console.log("tile,wood,carpet")
+}else if(Job ==='Web Developer'){
+    console.log("JS, REACT, Mongo, SQL,CSS,HTML")
+}else{
+    console.log("different skill sets")
+}
+// ================== MORE PRACTICE =============================================
