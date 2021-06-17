@@ -158,7 +158,7 @@ if(Job === 'Contractor'){
 }
 // ================== MORE PRACTICE =============================================
 
-const cell = '';
+const cell = 'Apple';
 
 switch (cell){
     case 'NOKIA':
@@ -176,3 +176,16 @@ switch (cell){
         console.log("Pick a phone company")
 }
 
+if(cell === 'NOKIA'){
+    console.log("Need a phone")
+}else if(cell==='NOKIA'){
+    console.log("the original flip phone")
+}else if(cell==='Samsung'){
+    console.log("Do you like galaxy phones?")
+}else if(cell==='Apple'){
+    console.log("trying to buy a phone?")
+}else if('HUAWEI'){
+    console.log("Chinas best phone company")
+}else{
+    console.log("buy a new phone man")
+}
