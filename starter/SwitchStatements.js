@@ -157,3 +157,22 @@ if(Job === 'Contractor'){
     console.log("different skill sets")
 }
 // ================== MORE PRACTICE =============================================
+
+const cell = '';
+
+switch (cell){
+    case 'NOKIA':
+        console.log("Original Cell phone");
+            break;
+    case 'Samsung':
+        console.log("Galaxy's suck");
+            break;
+    case 'Apple':
+        console.log("Apple is a modern day giant");
+            break;
+    case 'HUAWEI':
+        console.log("Asian corporate giant");
+    default:
+        console.log("Pick a phone company")
+}
+
