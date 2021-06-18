@@ -189,3 +189,15 @@ if(cell === 'NOKIA'){
 }else{
     console.log("buy a new phone man")
 }
+
+// ================== MORE PRACTICE =============================================
+
+3 + 4
+1991
+true && false &!false
+
+if(23>10)
+{
+    const str = '233 is bigger';
+}
+console.log(`I'm ${2037-1991}`);
