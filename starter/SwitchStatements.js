@@ -201,3 +201,40 @@ if(23>10)
     const str = '233 is bigger';
 }
 console.log(`I'm ${2037-1991}`);
+
+// ================== MORE PRACTICE =============================================
+
+const age = 23;
+
+// age >= 18 ? console.log( ` I like to drink wine`):
+// console.log(` I like to drink water`);
+
+const drink = age >= 18 ? `wine🍷`: `water`;
+console.log(drink);
+
+let drink2;
+if(age >= 18){
+    drink2 = `wine for me`;
+}else{
+    drink2 = `water for me`;
+}
+
+console.log(drink2);
+
+console.log(`I like to drink ${age >= 18 ? `wine🍷`
+: `water`}`);
+// ================== MORE PRACTICE =============================================
+
+const year = 2021;
+
+const time_passingby = year >= 1993 ? `You are young`:`You are Old`;
+console.log(time_passingby);
+
+let YouAreOld;
+
+if(year >= 1993){
+    YouAreOld =  "Baby Boomer";
+}else{
+    YouAreOld= "Millenials Rock"
+}
+console.log(`time is passing by ${YouAreOld >= 2021 ? `your past 30`: `your hitting 30's`}`);
