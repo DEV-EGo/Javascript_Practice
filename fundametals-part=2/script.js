@@ -6,5 +6,8 @@
 let hasDriversLicense = false;
 const passTest = true;
 
-if(passTest) hasDriverLicense = true;
+if(passTest) hasDriversLicense = true;
 if(hasDriversLicense) console.log( 'i cant drive now');
+
+// const interface = 'audio';
+// const private = 534;
