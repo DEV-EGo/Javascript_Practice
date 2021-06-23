@@ -136,3 +136,39 @@ const Warren = Space("Wallstreet Investor", "Warren Buffet");
     console.log(Warren);
 
  // ===================PRACTICE==============================================
+
+ function LaptopBrand (NameOfBrand, StoreToBuyFrom){
+        const Laptop = `you can buy a ${NameOfBrand} inside a ${StoreToBuyFrom}`;
+            return Laptop;
+ }
+
+ const Mac = LaptopBrand ("Apple Laptop", "Apple Store");
+        console.log(Mac);
+
+const AlienWare = LaptopBrand ("Alien Ware", "Best Buy");
+        console.log(AlienWare);
+
+const WindowsLaptop = LaptopBrand ("Windows XP", "Best Buy");
+        console.log(WindowsLaptop);
+
+const kaliLinux = LaptopBrand ("Linux", "not able to buy inside a store this is an extended OS");
+        console.log(kaliLinux);
+
+ // ===================PRACTICE==============================================
+
+ function Animal (Breed,Gender){
+        const Dog = `i have a ${Breed} its a ${Gender}`;
+            return Dog;
+ }
+
+ const Cane_Corso = Animal("Eurpean Mastiff", "Boy");
+        console.log(Cane_Corso);
+
+const Shitzu = Animal("Shitzu", "Girl");
+        console.log(Shitzu);
+
+const Sharpei = Animal("Sharpei", "Boy");
+        console.log(Sharpei);
+
+const Yorkie = Animal("Yorkie","Boy");
+        console.log( Yorkie);
