@@ -172,3 +172,12 @@ const Sharpei = Animal("Sharpei", "Boy");
 
 const Yorkie = Animal("Yorkie","Boy");
         console.log( Yorkie);
+
+ // ===================PRACTICE==============================================
+
+ function calcAge1(birthYeah){
+        return 2021 - birthYeah;;
+ }
+
+ const age1 = calcAge1(1993);
+        console.log(age1);
