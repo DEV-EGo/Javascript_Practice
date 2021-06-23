@@ -104,3 +104,35 @@ const Porsche = RaceCar("911","Porshce");
 const Supra = RaceCar("MK4", "1994");
     console.log(Supra);
 
+const Mercedenz = RaceCar("GTR", "Benz");
+    console.log(Mercedenz);
+
+ // ===================PRACTICE==============================================
+
+ function Space(Company, RichFolk){
+    const Rich = `${Company} funded by ${RichFolk} will travel to space before 2040`;
+        return Rich;
+ }
+
+ const Elon = Space("SpaceX", "Elon Musk");
+    console.log(Elon);
+
+const Jeff = Space("Amazon", "Jeff Bezzos");
+    console.log(Jeff);
+
+const Richard = Space("Virgin Mobile", "Richard Branson");
+    console.log(Richard);
+
+const Jack = Space("Ali Baba", "Jack Ma");
+    console.log(Jack);
+
+const Bill = Space("Microsoft", "Bill Gates");
+    console.log(Bill);
+
+const Mark = Space("Facebook", "Mark Zuckerberg");
+    console.log(Mark);
+
+const Warren = Space("Wallstreet Investor", "Warren Buffet");
+    console.log(Warren);
+
+ // ===================PRACTICE==============================================
