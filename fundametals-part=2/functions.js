@@ -173,11 +173,27 @@ const Sharpei = Animal("Sharpei", "Boy");
 const Yorkie = Animal("Yorkie","Boy");
         console.log( Yorkie);
 
+const Mastiff = Animal("Doggo", "Boy");
+        console.log(Mastiff);
  // ===================PRACTICE==============================================
 
  function calcAge1(birthYeah){
-        return 2021 - birthYeah;;
+        return 2021 - birthYeah;
  }
 
  const age1 = calcAge1(1993);
         console.log(age1);
+
+function AgeCalculation2(Milennial){
+        return 2021 - Milennial;
+}
+
+const SecondAgeTrial = AgeCalculation2(2030);
+        console.log(SecondAgeTrial);
+
+function registerMoney(CashMoney){
+        return 4000 + CashMoney;
+}
+
+const GetThisBread = registerMoney(50);
+        console.log(GetThisBread);
