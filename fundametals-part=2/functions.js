@@ -79,3 +79,28 @@ const Ewing = AlternativeShoes("Patrick Ewing", "Reebok");
     console.log(Ewing);
 const Steph_curry = AlternativeShoes("Steph Curry", "UnderArmor");
     console.log(Steph_curry);
+
+
+ // ===================PRACTICE==============================================
+
+ function RaceCar(Coupe, Brand){
+     const whip = `i want to buy 
+        a ${Brand} - ${Coupe}`;
+        return whip;
+ }
+
+ const ferrari = RaceCar("Ferarri", "F450");
+    console.log(ferrari);
+
+const Nissan = RaceCar("GTR", "Skyline")
+    console.log(Nissan);
+
+const McLaren = RaceCar("P1", "Formula");
+    console.log(McLaren);
+
+const Porsche = RaceCar("911","Porshce");
+    console.log(Porsche);
+
+const Supra = RaceCar("MK4", "1994");
+    console.log(Supra);
+
