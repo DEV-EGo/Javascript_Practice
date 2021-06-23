@@ -175,14 +175,23 @@ const Yorkie = Animal("Yorkie","Boy");
 
 const Mastiff = Animal("Doggo", "Boy");
         console.log(Mastiff);
+
  // ===================PRACTICE==============================================
 
  function calcAge1(birthYeah){
-        return 2021 - birthYeah;
+        return 2037 - birthYeah;
  }
 
  const age1 = calcAge1(1993);
         console.log(age1);
+
+
+const CalAgePractice = function (birthYeah){
+    return 2037 - birthYeah;
+}
+const CalcAge_2 = CalAgePractice(1991);
+
+console.log(CalcAge_2, age1);
 
 function AgeCalculation2(Milennial){
         return 2021 - Milennial;
@@ -197,3 +206,10 @@ function registerMoney(CashMoney){
 
 const GetThisBread = registerMoney(50);
         console.log(GetThisBread);
+
+function Bitcoin(Satoshi){
+        return 1234 * Satoshi;
+}
+
+const ETH = Bitcoin(12);
+    console.log(ETH);
