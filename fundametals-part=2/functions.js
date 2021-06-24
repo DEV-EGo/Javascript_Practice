@@ -176,8 +176,9 @@ const Yorkie = Animal("Yorkie","Boy");
 const Mastiff = Animal("Doggo", "Boy");
         console.log(Mastiff);
 
- // ===================PRACTICE==============================================
+// ===================PRACTICE==============================================
 
+//  function declaration
  function calcAge1(birthYeah){
         return 2037 - birthYeah;
  }
@@ -185,13 +186,18 @@ const Mastiff = Animal("Doggo", "Boy");
  const age1 = calcAge1(1993);
         console.log(age1);
 
+// funcion expression
 
 const CalAgePractice = function (birthYeah){
     return 2037 - birthYeah;
 }
+
+
 const CalcAge_2 = CalAgePractice(1991);
 
 console.log(CalcAge_2, age1);
+
+// ===================PRACTICE==============================================
 
 function AgeCalculation2(Milennial){
         return 2021 - Milennial;
