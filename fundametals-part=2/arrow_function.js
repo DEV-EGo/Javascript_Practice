@@ -24,4 +24,11 @@ const howOldAreYou = (yearYourBorn, yourNameiS) => {
 console.log(howOldAreYou(2020,"test"));
 console.log(howOldAreYou(2050,"test2"));
 // =================================================================
-const 
+
+const vehicle = (nameOfCar, BrandOfCar)=>{
+    const YearModel = 1970 + nameOfCar;
+    const BrandName = 1970 + YearModel;
+        return `${BrandOfCar} - ${BrandName}`;
+}
+console.log(vehicle (2021,"car test"));
+console.log(vehicle (2030,"car test"));
