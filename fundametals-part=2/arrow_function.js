@@ -32,3 +32,12 @@ const vehicle = (nameOfCar, BrandOfCar)=>{
 }
 console.log(vehicle (2021,"car test"));
 console.log(vehicle (2030,"car test"));
+// =================================================================
+
+const bitches = (rebound, oldflame)=>{
+    const foreignHoe = 1994 + rebound;
+    const mexican = 1991 + oldflame;
+        return `${oldflame} + ${rebound}`
+}
+console.log(bitches(1994,"leo"));
+console.log(bitches(1991,"capricorn"));
