@@ -63,9 +63,24 @@ function breakBread (Bread) {
 }
 
 function Bakery(SweetBread,SandwhichBread){
-        const concha = cutBread(SweetBread);
-        const Bolillo = cutBread(SandwhichBread);
+        const concha = breakBread(SweetBread);
+        const Bolillo = breakBread(SandwhichBread);
     
-        const Odalys = `pan de ${concha} & ${Bolillo}`;
+        const Odalys = `pan de concha cuesta ${concha} & bolillo cuesta ${Bolillo}`;
             return Odalys;
+}
+
+console.log(Bakery(2,3));
+// =================================================================
+
+function trafficLight (lightOn){
+    return LetsGo * 10;
+}
+
+function speedlimit (GreenLight,RedLight){
+        const LeGoo = trafficLight(GreenLight);
+        const JustStop = trafficLight(RedLight);
+
+        const Popo = `youre going ${LeGoo} on a green light & on a red ${JustStop}`;
+            return Popo;
 }
