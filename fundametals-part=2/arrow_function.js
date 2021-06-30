@@ -56,3 +56,16 @@ function fruitProcessor(apples,oranges){
 }
 
 console.log(fruitProcessor(2,3));
+// =================================================================
+
+function breakBread (Bread) {
+    return Bread + 2;
+}
+
+function Bakery(SweetBread,SandwhichBread){
+        const concha = cutBread(SweetBread);
+        const Bolillo = cutBread(SandwhichBread);
+    
+        const Odalys = `pan de ${concha} & ${Bolillo}`;
+            return Odalys;
+}
