@@ -15,6 +15,9 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 console.log(yearsUntilRetirement(1991, `jonas`));
 console.log(yearsUntilRetirement(1980, `bob`));
 
+console.log(" =================================================================");
+
+
 // =================================================================
 const howOldAreYou = (yearYourBorn, yourNameiS) => {
     const howOld = 1993 -yearYourBorn;
@@ -23,6 +26,9 @@ const howOldAreYou = (yearYourBorn, yourNameiS) => {
 }
 console.log(howOldAreYou(2020,"test"));
 console.log(howOldAreYou(2050,"test2"));
+
+console.log(" =================================================================");
+
 // =================================================================
 
 const vehicle = (nameOfCar, BrandOfCar)=>{
@@ -32,6 +38,9 @@ const vehicle = (nameOfCar, BrandOfCar)=>{
 }
 console.log(vehicle (2021,"car test"));
 console.log(vehicle (2030,"car test"));
+
+console.log(" =================================================================");
+
 // =================================================================
 
 const bitches = (rebound, oldflame)=>{
@@ -41,6 +50,9 @@ const bitches = (rebound, oldflame)=>{
 }
 console.log(bitches(1994,"leo"));
 console.log(bitches(1991,"capricorn"));
+
+console.log(" =================================================================");
+
 // =================================================================
 
 function cutFruitPieces (fruit) {
@@ -56,6 +68,9 @@ function fruitProcessor(apples,oranges){
 }
 
 console.log(fruitProcessor(2,3));
+
+console.log(" =================================================================");
+
 // =================================================================
 
 function breakBread (Bread) {
@@ -71,10 +86,11 @@ function Bakery(SweetBread,SandwhichBread){
 }
 
 console.log(Bakery(2,3));
-// =================================================================
+
+console.log(" =================================================================");
 
 function trafficLight (lightOn){
-    return LetsGo * 10;
+    return lightOn * 10;
 }
 
 function speedlimit (GreenLight,RedLight){
@@ -84,3 +100,9 @@ function speedlimit (GreenLight,RedLight){
         const Popo = `youre going ${LeGoo} on a green light & on a red ${JustStop}`;
             return Popo;
 }
+
+console.log(speedlimit(2,4));
+// =================================================================
+console.log(" =================================================================");
+
+
