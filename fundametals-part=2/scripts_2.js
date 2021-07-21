@@ -16,4 +16,5 @@ const CheckingWinner = function (DolphinAverage, KOALASAverage){
         console.log(`no team wins....`);
      }
 }
-checkWinner (DolphinsLiveScore, KOALASLiveScore);
+CheckingWinner (DolphinsLiveScore, KOALASLiveScore);
+CheckingWinner(576,111);
