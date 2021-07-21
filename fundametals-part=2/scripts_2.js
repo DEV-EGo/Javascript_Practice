@@ -1,11 +1,10 @@
 const AverageCalc = (A,B,C) => (A + B + C) /3;
 console.log(AverageCalc(3,4,5));
 
-const DolphinsLiveScore = AverageCalc (44,23,71);
-const KOALASLiveScore = AverageCalc (65,54,49);
-
-console.log(KOALASLiveScore);
-console.log(DolphinsLiveScore);
+// test
+let DolphinsLiveScore = AverageCalc (44,23,71);
+let KOALASLiveScore = AverageCalc (65,54,49);
+console.log(KOALASLiveScore,DolphinsLiveScore);
 
 const CheckingWinner = function (DolphinAverage, KOALASAverage){
     if(DolphinAverage >= 2 * KOALASAverage){
@@ -18,3 +17,9 @@ const CheckingWinner = function (DolphinAverage, KOALASAverage){
 }
 CheckingWinner (DolphinsLiveScore, KOALASLiveScore);
 CheckingWinner(576,111);
+
+// test data 2
+DolphinsLiveScore = AverageCalc (85,54,41);
+KOALASLiveScore = AverageCalc (23,34,27);
+console.log(DolphinsLiveScore, KOALASLiveScore)
+CheckingWinner (DolphinsLiveScore, KOALASLiveScore);
