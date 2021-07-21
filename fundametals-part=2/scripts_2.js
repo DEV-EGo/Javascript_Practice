@@ -7,8 +7,13 @@ const KOALASLiveScore = AverageCalc (65,54,49);
 console.log(KOALASLiveScore);
 console.log(DolphinsLiveScore);
 
-const WinnersLive = function (KOALASAverageScore, DolphinAveragecore){
-    IF(KOALASAverageScore >= 2 + DolphinAveragecore){
-        console.log(Dolph 🐬(`${DolphinAveragecore} vs ${KOALASAverageScore}`);
-    }
+const CheckingWinner = function (DolphinAverage, KOALASAverage){
+    if(DolphinAverage >= 2 * KOALASAverage){
+        console.log(`Dolphins win (${DolphinAverage} vs ${KOALASAverage})`);
+    } else if( KOALASAverage >=2 * DolphinAverage){
+        console.log(`koalas win (${KOALASAverage} vs ${DolphinAverage})`);
+    }else {
+        console.log(`no team wins....`);
+     }
 }
+checkWinner (DolphinsLiveScore, KOALASLiveScore);
