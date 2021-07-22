@@ -20,3 +20,8 @@ friends[1] = 'draco';
 console.log(friends);
 friends[0] = 'diego';
 console.log(friends);
+
+firstName = 'Jonas';
+const Jonas = [firstName, 'Schmedtmann',
+2037 - 1991,'teacher', friends];
+console.log(Jonas);
