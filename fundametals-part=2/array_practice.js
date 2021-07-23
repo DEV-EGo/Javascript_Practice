@@ -47,3 +47,7 @@
 const friends = ['Michael', ' Steven', 'Peter'];
 friends.push('jay'); ///PUSH is a function / method that adds to the end of an array
 console.log(friends);
+
+const cars = [ 'gt86', 'supra', 'evo'];
+cars.push('lambo');
+console.log(cars);
