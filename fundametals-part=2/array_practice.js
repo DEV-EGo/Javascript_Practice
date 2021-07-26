@@ -52,6 +52,8 @@ const friends = [
 const NewLength =friends.push('jay'); ///PUSH is a function / method that adds to the end of an array
 console.log(friends);
 console.log(NewLength);
+friends.unshift('john');
+console.log(friends);
 
 const cars = [
     'gt86',
