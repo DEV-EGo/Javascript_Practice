@@ -44,10 +44,30 @@
 
 // =================================ARRAY METHODS - OPERATIONS =================================
 
-const friends = ['Michael', ' Steven', 'Peter'];
-friends.push('jay'); ///PUSH is a function / method that adds to the end of an array
+const friends = [
+    'Michael',
+    ' Steven',
+    'Peter'
+];
+const NewLength =friends.push('jay'); ///PUSH is a function / method that adds to the end of an array
 console.log(friends);
+console.log(NewLength);
 
-const cars = [ 'gt86', 'supra', 'evo'];
-cars.push('lambo');
+const cars = [
+    'gt86',
+    'supra',
+    'evo'
+];
+const newcars = cars.push('lambo');
 console.log(cars);
+console.log(newcars);
+
+const sneakers = [ 
+    'jordans',
+    'Adidas',
+    'NIKE',
+    'puma'
+];
+const Deadstocks =sneakers.push('YEEZY');
+console.log(sneakers);
+console.log(Deadstocks);
