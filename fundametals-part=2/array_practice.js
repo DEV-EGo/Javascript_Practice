@@ -49,9 +49,13 @@ const friends = [
     ' Steven',
     'Peter'
 ];
+
+// Add Elements
+
 const NewLength =friends.push('jay'); ///PUSH is a function / method that adds to the end of an array
 console.log(friends);
 console.log(NewLength);
+
 friends.unshift('john');
 console.log(friends);
 
@@ -73,3 +77,21 @@ const sneakers = [
 const Deadstocks =sneakers.push('YEEZY');
 console.log(sneakers);
 console.log(Deadstocks);
+
+// Remove Elements
+
+friends.pop(); // Last in line
+const popped = friends.pop();
+console.log(popped);
+console.log(friends);
+
+friends.shift(); // first in line
+console.log(friends);
+
+console.log(friends.indexOf('steven'));
+console.log(friends.indexOf('bob'));
+
+friends.push(23);
+console.log(friends.includes('steven'));
+console.log(friends.includes('bob'));
+console.log(friends.includes(23));
