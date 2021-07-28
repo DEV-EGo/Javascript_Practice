@@ -116,3 +116,29 @@ console.log(laptops.indexOf('Alien Ware'));
 
 laptops.push(2);
 console.log(laptops.includes('New PC'));
+
+// ===================
+const JobSite =[
+    'Mechanic Shop',
+    'Electrician',
+    'Welder',
+    'Carpenter'
+];
+
+const NewHire = JobSite.push('Tile installer');
+console.log(JobSite);
+console.log(NewHire);
+
+JobSite.pop();
+
+const crypto = [
+    'BTC',
+    'ETH',
+    'Monero'
+];
+const AltCoins = crypto.push('ALDA');
+console.log(crypto);
+console.log(AltCoins);
+
+console.log(crypto.indexOf('BTC'));
+
