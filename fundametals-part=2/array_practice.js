@@ -95,3 +95,24 @@ friends.push(23);
 console.log(friends.includes('steven'));
 console.log(friends.includes('bob'));
 console.log(friends.includes(23));
+
+// more PRACTICE
+
+const laptops =[
+    'Dell',
+    'Mac',
+    'Alien Ware'
+];
+
+const newEquipment =laptops.push('Desktop');
+
+console.log(laptops);
+console.log(newEquipment);
+
+laptops.pop();
+
+console.log(laptops.indexOf('Dell'));
+console.log(laptops.indexOf('Alien Ware'));
+
+laptops.push(2);
+console.log(laptops.includes('New PC'));
