@@ -177,4 +177,8 @@ console.log(netflix.indexOf('how to sell drugs online (fast)'));
 
 netflix.push('this is the "push" method');
 
-netflix.shift;
+netflix.pop();
+const this_pop = netflix.pop();
+
+console.log(netflix);
+console.log(this_pop);
