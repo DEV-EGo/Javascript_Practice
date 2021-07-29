@@ -46,7 +46,7 @@
 
 const friends = [
     'Michael',
-    ' Steven',
+    'Steven',
     'Peter'
 ];
 
@@ -59,25 +59,6 @@ console.log(NewLength);
 friends.unshift('john');
 console.log(friends);
 
-const cars = [
-    'gt86',
-    'supra',
-    'evo'
-];
-const newcars = cars.push('lambo');
-console.log(cars);
-console.log(newcars);
-
-const sneakers = [ 
-    'jordans',
-    'Adidas',
-    'NIKE',
-    'puma'
-];
-const Deadstocks =sneakers.push('YEEZY');
-console.log(sneakers);
-console.log(Deadstocks);
-
 // Remove Elements
 
 friends.pop(); // Last in line
@@ -88,14 +69,17 @@ console.log(friends);
 friends.shift(); // first in line
 console.log(friends);
 
-console.log(friends.indexOf('steven'));
+console.log(friends.indexOf('Steven'));
 console.log(friends.indexOf('bob'));
 
 friends.push(23);
-console.log(friends.includes('steven'));
+console.log(friends.includes('Steven'));
 console.log(friends.includes('bob'));
 console.log(friends.includes(23));
 
+if(friends.includes('Steven')){
+    console.log('you have a friend called Steven');
+}
 // more PRACTICE
 
 const laptops =[
@@ -141,4 +125,24 @@ console.log(crypto);
 console.log(AltCoins);
 
 console.log(crypto.indexOf('BTC'));
+
+
+const cars = [
+    'gt86',
+    'supra',
+    'evo'
+];
+const newcars = cars.push('lambo');
+console.log(cars);
+console.log(newcars);
+
+const sneakers = [ 
+    'jordans',
+    'Adidas',
+    'NIKE',
+    'puma'
+];
+const Deadstocks =sneakers.push('YEEZY');
+console.log(sneakers);
+console.log(Deadstocks);
 
