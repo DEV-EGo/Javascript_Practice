@@ -101,6 +101,9 @@ console.log(laptops.indexOf('Alien Ware'));
 laptops.push(2);
 console.log(laptops.includes('New PC'));
 
+if(laptops.includes('Mac')){
+    console.log('you own a Mac');
+}
 // ===================
 const JobSite =[
     'Mechanic Shop',
@@ -115,6 +118,10 @@ console.log(NewHire);
 
 JobSite.pop();
 
+if(JobSite.includes('Carpenter')){
+    console.log('you were a Carpenter');
+}
+
 const crypto = [
     'BTC',
     'ETH',
@@ -125,7 +132,9 @@ console.log(crypto);
 console.log(AltCoins);
 
 console.log(crypto.indexOf('BTC'));
-
+if(crypto.includes('BTC')){
+    console.log('You own a piece of BTC');
+}
 
 const cars = [
     'gt86',
@@ -135,6 +144,10 @@ const cars = [
 const newcars = cars.push('lambo');
 console.log(cars);
 console.log(newcars);
+
+if(cars.includes('gt86')){
+    console.log('you drive baby supra aka gt86');
+}
 
 const sneakers = [ 
     'jordans',
