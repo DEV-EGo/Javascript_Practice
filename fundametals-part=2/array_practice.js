@@ -159,3 +159,22 @@ const Deadstocks =sneakers.push('YEEZY');
 console.log(sneakers);
 console.log(Deadstocks);
 
+if(sneakers.includes('jordans')){
+    console.log('youre a hypebeast and only wear jordans');
+}
+
+const netflix = [
+    'movies',
+    'series',
+    'documentarys'
+]
+const shows_to_watch = netflix.push('how to sell drugs online (fast)');
+console.log(netflix);
+console.log(shows_to_watch);
+
+console.log(netflix.indexOf('movies'));
+console.log(netflix.indexOf('how to sell drugs online (fast)'));
+
+netflix.push('this is the "push" method');
+
+netflix.shift;
