@@ -22,4 +22,11 @@ console.log(jonas['last' + name_key]);
 const interested_in = prompt('what do you want to know about jonas? choose between firstName, lastName, age, job, and friends');
 console.log(interested_in)
 
-console.log(jonas[interested_in]);
+// using bracket notation to call 'interested_in' and retrieving data from array
+// accessing property that doest not exist
+
+if(jonas[interested_in]){
+    console.log(jonas[interested_in]);
+}else{
+    console.log('wrong request! what do you want to know about jonas? choose between firstName, lastName, age, job, and friends ')
+}
