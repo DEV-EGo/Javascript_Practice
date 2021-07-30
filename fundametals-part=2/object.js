@@ -21,3 +21,5 @@ console.log(jonas['last' + name_key]);
 
 const interested_in = prompt('what do you want to know about jonas? choose between firstName, lastName, age, job, and friends');
 console.log(interested_in)
+
+console.log(jonas[interested_in]);
