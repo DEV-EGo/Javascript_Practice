@@ -30,3 +30,11 @@ if(jonas[interested_in]){
 }else{
     console.log('wrong request! what do you want to know about jonas? choose between firstName, lastName, age, job, and friends ')
 }
+
+jonas.location = 'Portugal';
+jonas['twitter'] = '@jonasschmedtman';
+console.log(jonas);
+
+//Challenge request
+// "jonas has 3 friends and his friend is called Michael"
+console.log(`${jonas.firstName} has ${jonas.friends}`)
