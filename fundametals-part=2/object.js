@@ -38,3 +38,17 @@ console.log(jonas);
 //Challenge request
 // "jonas has 3 friends and his friend is called Michael"
 console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`);
+
+
+// ===================
+
+const Dipset = {
+    label: 'RocaFella',
+    City: 'New York',
+    Members: ['Camron','Jim Jones', 'Juelz Santana', 'Max B']
+};
+
+console.log(Dipset);
+
+console.log(Dipset.label);
+console.log(Dipset['label']);
