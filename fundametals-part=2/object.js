@@ -42,13 +42,33 @@ console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his bes
 
 // ===================
 
+console.log('================================================================');
+
 const Dipset = {
-    label: 'RocaFella',
+    Record_label: 'RocaFella',
     City: 'New York',
     Members: ['Camron','Jim Jones', 'Juelz Santana', 'Max B']
 };
 
 console.log(Dipset);
 
-console.log(Dipset.label);
+console.log(Dipset.Record_label);
 console.log(Dipset['label']);
+
+const NYC = (' Harlem music');
+console.log(NYC);
+
+const Intro_toMusic = prompt(' HARLEM in the house');
+console.log(Intro_toMusic);
+
+if(Dipset[Intro_toMusic]){
+    console.log(Dipset[Intro_toMusic])
+}else{
+    console.log('youre not with the set');
+}
+
+Dipset.location = 'Lower East Side';
+Dipset['Instagram'] = '@Dipster';
+console.log(Dipset);
+
+console.log(`${Dipset.Record_label}  signed this music group ${Dipset.Members}`);
