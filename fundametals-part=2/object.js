@@ -88,12 +88,20 @@ const jonas = {
     // }
 
     calculateAge: function(){
-        console.log(this);
-            return 2037 - this.birthyear;
+        this.age = 2037 - this.birthyear;
+        return this.age;
     }
+
     // any function that is attached to an object is called a method^^^
 };
 
-console.log(jonas.calculateAge(1991));
+console.log(jonas.calculateAge());
+console.log(jonas.age);
+console.log(jonas.age);
+console.log(jonas.age);
+
 
 // console.log(jonas['calculateAge'](1991));
+
+// ========CHALLENGE===========
+// jonas is a 46 year old teacher
