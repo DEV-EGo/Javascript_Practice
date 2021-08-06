@@ -90,6 +90,10 @@ const jonas = {
     calculateAge: function(){
         this.age = 2037 - this.birthyear;
         return this.age;
+    },
+
+    getSummary: function(){
+        return `${this.firstName} is a ${this.hasDriversLicense }`
     }
 
     // any function that is attached to an object is called a method^^^
@@ -105,3 +109,13 @@ console.log(jonas.age);
 
 // ========CHALLENGE===========
 // jonas is a 46 year old teacher
+console.log(jonas.getSummary());
+
+// =======================================================================
+console.log('================================================================');
+
+const nikeSB = {
+    ShoeModel: 'NIKE SB',
+    ReleaseYear: 2021,
+    HitonRelease: true
+}
