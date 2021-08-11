@@ -117,5 +117,19 @@ console.log('================================================================');
 const nikeSB = {
     ShoeModel: 'NIKE SB',
     ReleaseYear: 2021,
-    HitonRelease: true
-}
+    Hypebeast: 'sneakerhead',
+    placeOfRelease: 'Undefeated',
+    HitonRelease: true,
+
+    calculate_sale: function (){
+       return this.releasedate = 2022 - this.ReleaseYear
+    }, 
+    getTotal_sum: function(){
+        return `${this.ShoeModel} is a ${this.Hypebeast}`
+    }
+};
+
+console.log(nikeSB.calculate_sale);
+console.log(nikeSB.ShoeModel);
+console.log(nikeSB.Hypebeast);
+console.log(nikeSB.ReleaseYear);
