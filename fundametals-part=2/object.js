@@ -133,3 +133,19 @@ console.log(nikeSB.calculate_sale);
 console.log(nikeSB.ShoeModel);
 console.log(nikeSB.Hypebeast);
 console.log(nikeSB.ReleaseYear);
+
+const trip = {
+    Destination: 'Gatlinburg',
+    timeOfTrip: 2021,
+    activities: ['camping','zip-lining,cave exploring'],
+    have_fun: true,
+
+    WhenDidWeGo: function(){
+        return this.timeofTravel = 2024-this.timeOfTrip
+    },
+    funtime: function(){
+        return `${this.Destination} has many activities like ${activities[0]}`
+    }
+};
+
+console.log(activities);
