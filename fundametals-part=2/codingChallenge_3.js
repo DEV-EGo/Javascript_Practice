@@ -31,3 +31,4 @@ if(mark.bmi > John.bmi){
     is higher than ${mark.fullName}'s BMI (${mark.bmi})
     `)
 }
+// finished coding challenge and intro to javascript
