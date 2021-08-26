@@ -9,9 +9,11 @@ const ego = [
     'Gonzalez',
     2037-1993,
     'web developer',
-    ['Noel','Eppy','jordan','juju']
+    ['Noel','Eppy','jordan','juju'],
+    true
 ];
 
+const types = [];
 
 // console.log(Edwin[0]);
 // console.log(Edwin[1]);
@@ -19,6 +21,14 @@ const ego = [
 // console.log(Gonzalez[4])
 
 
-for(let i=0; i<5 ; i++){
-    console.log(ego[i]);
+for(let i=0; i<ego.length ; i++){
+    // reading from egos array
+    console.log(ego[i],typeof ego[i]);
+
+    // filling types array
+    // types[i]=typeof ego[i];
+
+    types.push(typeof ego[i]);
 }
+
+console.log(types);
