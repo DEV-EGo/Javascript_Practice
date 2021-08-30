@@ -41,3 +41,15 @@ for(let i = 0; i < years.length; i++){
     ages.push(2037 - years[i]);
 }
 console.log(ages);
+
+// continue and break statements
+
+// CONTINUE : exit the current iteration of the loop & continue to the next one
+// BREAK: Terminate the entire loop
+// EXAMPLE:
+
+for(let i=0; i<ego.length ; i++){
+    if(typeof ego[i] !== 'string') continue;
+    console.log(ego[i],typeof ego[i]);
+
+}
