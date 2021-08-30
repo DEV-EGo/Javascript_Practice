@@ -47,9 +47,17 @@ console.log(ages);
 // CONTINUE : exit the current iteration of the loop & continue to the next one
 // BREAK: Terminate the entire loop
 // EXAMPLE:
-
+console.log('--------only strings will show below--------');
 for(let i=0; i<ego.length ; i++){
     if(typeof ego[i] !== 'string') continue;
     console.log(ego[i],typeof ego[i]);
 
 }
+
+console.log('--------BREAK with number--------');
+for(let i=0; i<ego.length ; i++){
+    if(typeof ego[i] == 'number') break;
+    console.log(ego[i],typeof ego[i]);
+
+}
+
