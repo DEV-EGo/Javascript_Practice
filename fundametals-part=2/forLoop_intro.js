@@ -96,17 +96,26 @@ for(let i=0; i < JDMYears.length; i++){
 }
 console.log('--------MORE PRACTICE--------');
 
-const jayz =[
+const jayz = [
     'HOV',
     'RocaFella',
     2021 - 1990,
     'Greatest rappe of all time',
-    ['Dipset','Dame Dash','Bigs']
+    ['Dipset','Dame Dash','Bigs'],
+    true
 ];
 
 // 0,1,............4
 // 4,3,............0
 // instead of using "+" for increment in the loop we use "-" for decrement
-for(let i = jayz.length -1; i >= 0;i--){
+for(let i = jayz.length - 1; i >= 0;i--){
     console.log(i, jayz[i]);
+}
+
+for(let Excercise  = 1; Excercise = 4; Excercise++){
+    console.log(`starting excercise ${Excercise}`);
+
+    for (let rep = 1; rep < 6; rep++){
+        console.log(`lifting weight repetition ${rep} 💪🏽`);
+    }
 }
