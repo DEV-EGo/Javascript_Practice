@@ -92,8 +92,18 @@ const JDMYears = [1997,2010,1970,1980];
 const Car_age=[];
 
 for(let i=0; i < JDMYears.length; i++){
-    age.push(2021 - JDMYears[i]);
+    JDMYears.push(2021 - JDMYears[i]);
 }
-console.log(Car_age);
+console.log('--------MORE PRACTICE--------');
 
+const jayz =[
+    'HOV',
+    'RocaFella',
+    2021 - 1990,
+    'Greatest rappe of all time',
+    ['Dipset','Dame Dash','Bigs']
+];
 
+// 0,1,............4
+// 4,3,............0
+for(let i = jayz.length -1; i >= 0)
