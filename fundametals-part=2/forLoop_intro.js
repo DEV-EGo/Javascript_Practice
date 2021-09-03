@@ -106,4 +106,7 @@ const jayz =[
 
 // 0,1,............4
 // 4,3,............0
-for(let i = jayz.length -1; i >= 0)
+// instead of using "+" for increment in the loop we use "-" for decrement
+for(let i = jayz.length -1; i >= 0;i--){
+    console.log(i, jayz[i]);
+}
