@@ -119,3 +119,4 @@ for(let Excercise  = 1; Excercise = 4; Excercise++){
         console.log(`lifting weight repetition ${rep} 💪🏽`);
     }
 }
+console.log('--------PRACTICE--------');
