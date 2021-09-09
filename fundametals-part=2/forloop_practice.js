@@ -60,6 +60,32 @@ for(let Music_Catalog = 1; Music_Catalog < 5; Music_Catalog++){
     console.log(`Music Catalog: ${Music_Catalog}`);
 
     for(let ArtistPlaying = 1; ArtistPlaying < 6; ArtistPlaying++){
-        console.log(`Track number: ${Music_Catalog}, Artist: ${ArtistPlaying}`);
+        console.log(`Track number: ${Music_Catalog}, Artist: ${ArtistPlaying} 🎧`);
     }
 }
+
+// 
+console.log('========    my example  =========');
+// 
+
+const hobbies = [
+    'Coding',
+    'E-Commerce',
+    'SneakerHead',
+    'Vinyl Wrap installation',
+    'Wheel Repair'
+];
+
+for(let i = hobbies.length - 1; i >= 0; i--){
+    console.log(i, hobbies[i]);
+}
+
+for(let JobSite = 1; JobSite < 5; JobSite++) {
+    console.log(`Facility: ${JobSite}`);
+    for(let Job_for_the_Day = 1; Job_for_the_Day < 6; Job_for_the_Day++){
+        console.log(`location ${JobSite} : Working at job: ${Job_for_the_Day} 💸`);
+    }
+}
+// 
+console.log('========    my example  =========');
+// 
