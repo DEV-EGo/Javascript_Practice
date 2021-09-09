@@ -82,6 +82,7 @@ for(let i = hobbies.length - 1; i >= 0; i--){
 
 for(let JobSite = 1; JobSite < 5; JobSite++) {
     console.log(`Facility: ${JobSite}`);
+
     for(let Job_for_the_Day = 1; Job_for_the_Day < 6; Job_for_the_Day++){
         console.log(`location ${JobSite} : Working at job: ${Job_for_the_Day} 💸`);
     }
@@ -99,4 +100,12 @@ const JDM = [
 
 for(let i = JDM.length - 1; i >= 0; i--) {
     console.log(i, JDM[i]);
+}
+
+for(let CarLot = 1; CarLot < 5; CarLot++) {
+    console.log(`DealerShip Lot Number: ${CarLot}`);
+
+    for(let Vehicle_Sold = 1; Vehicle_Sold < 6; Vehicle_Sold++) {
+        console.log(`Lot #: ${CarLot} has Sold: ${Vehicle_Sold} cars 🚓`);
+    }
 }
