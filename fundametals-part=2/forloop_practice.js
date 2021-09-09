@@ -123,15 +123,15 @@ const Gundam =[
     'Sanskirt'
 ];
 
-for(let i= Gundam.length -1; i >= 0;Gundam--){
+for(let i = Gundam.length - 1; i >= 0;i--){
     console.log(i, Gundam[i]);
 }
 
 for(let MobileSuit = 1; MobileSuit < 5; MobileSuit++){
-    console.log(`Gundam ready for flight: ${MobileSuit}`);
+    console.log(`Battle simulation: ${MobileSuit}`);
 
     for(let ReadyForAction = 1; ReadyForAction < 6; ReadyForAction++){
-        console.log(` Suit up ${MobileSuit}: is ready for ${ReadyForAction}`);
+        console.log(` Suit up Gundam #${MobileSuit}: is ready in ${ReadyForAction} seconds`);
     }
 }
 // 
