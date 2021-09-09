@@ -14,7 +14,7 @@ for(let exercise_test = 1; exercise_test < 4; exercise_test++){
     console.log(`starting exercise ${exercise_test}`);
 
     for(let rep = 1; rep < 6;rep++){
-        console.log(`lifting weight competition ${rep} 🏋🏼‍♀️`);
+        console.log(`exercise ${exercise_test}: lifting weight competition ${rep} 🏋🏼‍♀️`);
     }
 }
 
@@ -34,13 +34,32 @@ for (let i =dog.length - 1; i >= 0; i--){
 }
 
 for(let walkDog = 1; walkDog < 5; walkDog++){
-    console.log(`how many times you walked the dog today? ${walkDog}`);
+    console.log(`Weeklog for dog walk: ${walkDog}`);
 
     for(let WalkingDogMoney = 1; WalkingDogMoney < 6; WalkingDogMoney++){
-        console.log(`paid for walking dog ${WalkingDogMoney} 🐾`);
+        console.log(`neighborhood ${walkDog}: you made $ ${WalkingDogMoney} 🐾`);
     }
 }
 
 // 
 console.log('========    my example  =========');
 // 
+
+const Music = [
+    'Mac miller',
+    'Wiz Khalifa',
+    'Kid Cudi',
+    'French Montana',
+    2021 - 2011
+];
+
+for ( let i = Music.length - 1; i >= 0; i-- ) {
+    console.log(i, Music[i]);
+}
+for(let Music_Catalog = 1; Music_Catalog < 5; Music_Catalog++){
+    console.log(`Music Catalog: ${Music_Catalog}`);
+
+    for(let ArtistPlaying = 1; ArtistPlaying < 6; ArtistPlaying++){
+        console.log(`Track number: ${Music_Catalog}, Artist: ${ArtistPlaying}`);
+    }
+}
