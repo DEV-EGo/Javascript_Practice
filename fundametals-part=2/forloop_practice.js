@@ -87,6 +87,7 @@ for(let JobSite = 1; JobSite < 5; JobSite++) {
         console.log(`location ${JobSite} : Working at job: ${Job_for_the_Day} 💸`);
     }
 }
+
 // 
 console.log('========    my example  =========');
 // 
@@ -109,3 +110,32 @@ for(let CarLot = 1; CarLot < 5; CarLot++) {
         console.log(`Lot #: ${CarLot} has Sold: ${Vehicle_Sold} cars 🚓`);
     }
 }
+
+// 
+console.log('========    my example  =========');
+// 
+
+
+const Gundam =[
+    'Wing Gundam',
+    'Dragon',
+    'Heavy Arms',
+    'Sanskirt'
+];
+
+for(let i= Gundam.length -1; i >= 0;Gundam--){
+    console.log(i, Gundam[i]);
+}
+
+for(let MobileSuit = 1; MobileSuit < 5; MobileSuit++){
+    console.log(`Gundam ready for flight: ${MobileSuit}`);
+
+    for(let ReadyForAction = 1; ReadyForAction < 6; ReadyForAction++){
+        console.log(` Suit up ${MobileSuit}: is ready for ${ReadyForAction}`);
+    }
+}
+// 
+console.log('========    my example  =========');
+// 
+
+
