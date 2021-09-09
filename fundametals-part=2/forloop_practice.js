@@ -89,3 +89,14 @@ for(let JobSite = 1; JobSite < 5; JobSite++) {
 // 
 console.log('========    my example  =========');
 // 
+
+const JDM = [
+    'Supra',
+    'GTR',
+    'F-RS',
+    'Nova SS'
+];
+
+for(let i = JDM.length - 1; i >= 0; i--) {
+    console.log(i, JDM[i]);
+}
