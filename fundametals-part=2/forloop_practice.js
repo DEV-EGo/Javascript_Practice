@@ -138,4 +138,28 @@ for(let MobileSuit = 1; MobileSuit < 5; MobileSuit++){
 console.log('========    my example  =========');
 // 
 
+const gamingSystems = [
+    "PS4",
+    "PS5",
+    "XBOX",
+    "Nintendo Switch",
+    "Sega"
+];
+
+for(let i = gamingSystems.length - 1; i >= 0; i--){
+    console.log(i,gamingSystems[i]);
+}
+
+for(let Systems_Purchased = 1; Systems_Purchased < 5; Systems_Purchased++){
+    console.log(`Gaming System List: ${Systems_Purchased}`)
+
+    for(let gaming_library = 1; gaming_library < 6; gaming_library++){
+        console.log(`Consoles in stock ${Systems_Purchased}, sold within the last: ${gaming_library} seconds`);
+    }
+}
+
+
+// 
+console.log('========    my example  =========');
+// 
 
