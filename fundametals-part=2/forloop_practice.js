@@ -163,3 +163,20 @@ for(let Systems_Purchased = 1; Systems_Purchased < 5; Systems_Purchased++){
 console.log('========    my example  =========');
 // 
 
+const freedom = [
+    'The Matrix',
+    'Life',
+    'Reality',
+    'Capitalism'
+];
+
+for(let i = freedom.length - 1; i >= 0; i--){
+    console.log(i, freedom[i]);
+}
+
+for(Reality = 1; Reality < 5; Reality++) {
+    console.log(`Destiny ${Reality}`);
+
+    for(let i = TheMatrixIsReal; TheMatrixIsReal )
+}
+
