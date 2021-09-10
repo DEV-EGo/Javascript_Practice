@@ -177,6 +177,37 @@ for(let i = freedom.length - 1; i >= 0; i--){
 for(Reality = 1; Reality < 5; Reality++) {
     console.log(`Destiny ${Reality}`);
 
-    for(let i = TheMatrixIsReal; TheMatrixIsReal )
+    for(let TheMatrixIsReal = 1; TheMatrixIsReal < 6; TheMatrixIsReal++){
+        console.log(`Reality #: ${TheMatrixIsReal} , Choice #: ${TheMatrixIsReal}`);
+    }
 }
+
+// 
+console.log('========    my example  =========');
+// 
+
+
+const kicksOnFire = [
+    'NIKEsb',
+    'Lebron James',
+    'Jordans',
+    'Foamposites',
+    'Yeezys'
+];
+
+for(let i = kicksOnFire.length - 1; i >= 0; i--) {
+    console.log(i, kicksOnFire[i]);
+}
+
+for(inventory_list = 1; inventory_list < 5; inventory_list++) {
+    console.log(`Log for: ${inventory_list}`);
+
+    for(SneakerRow = 1; SneakerRow < 6; SneakerRow++) {
+        console.log(`Row #: ${inventory_list} , Buyer bought ${SneakerRow}💵`);
+    }
+}
+// 
+console.log('========    my example  =========');
+// 
+
 
