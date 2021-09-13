@@ -26,3 +26,16 @@ for ( let i =0; i < bills.lenght; i++){
 }
 
 console.log(bills,tips,totals);
+
+// bonus trivia
+
+const calc_average = function(Arr){
+    let sum = 0;
+    for(let i = 0; i < Arr.lenght; i++){
+        // sum = sum + Arr[i];
+        sum += Arr[i];
+
+    }
+console.log(sum);
+}
+calc_average([2, 3, 6]);
