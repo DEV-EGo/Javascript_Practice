@@ -36,6 +36,9 @@ const calc_average = function(Arr){
         sum += Arr[i];
 
     }
-console.log(sum);
+return sum / Arr.lenght;
 }
-calc_average([2, 3, 6]);
+
+console.log(calc_average([2,3,7]));
+console.log(calc_average([2,3,7]));
+
