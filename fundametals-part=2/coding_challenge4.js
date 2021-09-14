@@ -68,10 +68,28 @@ for (let i = 0; i < payment_due.length; i++){
 
     const paying = new_tip(payment_due[i]);
 
-    tipping.push(paying);
-    finalAmount.push(paying + payment_due[i]);
+        tipping.push(paying);
+        
+        finalAmount.push(paying + payment_due[i]);
 }
 
 console.log(payment_due, tipping, finalAmount);
 
+// ==================calcuting average============================
+
+const Calcu_average = function (newAray){
+    
+    let Suhm = 0;
+
+        for (let i = 0; i < Suhm.length; i++){
+
+            Suhm += newAray[i];
+        }
+        return Suhm / newAray.length;
+
+}
+
+console.log(Calcu_average([5,8,3]));
+console.log(Calcu_average(tipping));
+console.log(Calcu_average(finalAmount));
 
