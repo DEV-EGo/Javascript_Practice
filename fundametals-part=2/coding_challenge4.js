@@ -65,7 +65,13 @@ const tipping = [];
 const finalAmount = [];
 
 for (let i = 0; i < payment_due.length; i++){
-    
+
+    const paying = new_tip(payment_due[i]);
+
+    tipping.push(paying);
+    finalAmount.push(paying + payment_due[i]);
 }
+
+console.log(payment_due, tipping, finalAmount);
 
 
