@@ -42,7 +42,10 @@ const Average_Calc = function(Ar_r){
         sum += Ar_r[i];
 
     }
-        console.log(sum);
-
+    return sum / Ar_r.length;
 }
-Average_Calc([2,3,6]);
+console.log(Average_Calc([2,3,7]));
+console.log(Average_Calc(totals));
+console.log(Average_Calc(tips));
+
+
