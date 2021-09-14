@@ -48,4 +48,24 @@ console.log(Average_Calc([2,3,7]));
 console.log(Average_Calc(totals));
 console.log(Average_Calc(tips));
 
+// ==================bonus============================
+
+const new_tip = function(pay) {
+    return pay >= 10 && pay <= 30 ? pay * 0.10 : pay * 0.20;
+}
+
+const payment_due = [
+    176,
+    440,
+    37,
+    105
+];
+
+const tipping = [];
+const finalAmount = [];
+
+for (let i = 0; i < payment_due.length; i++){
+    
+}
+
 
