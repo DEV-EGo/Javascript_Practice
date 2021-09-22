@@ -8,15 +8,24 @@ const temperature = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
 // find max value in temp _array
 // substract min from max (amplitude) & return it
 
-const calcTempAmplitude = function (temps) {
+const calcTempAmplitudeNew = function (t1, t2) {
   let max = temps[0];
   let min = temps[0];
 
   for (let i = 0; i < temps.length; i++) {
+    const curTemp = temps[i];
+    if (typeof curTemp === 'number') continue;
+
     if (temps[i] > max) max = temps[i];
-    if (temps[i] > min) min = temps[i];
+    if (temps[i] < min) min = temps[i];
   }
-  console.log(max);
+  console.log(max, min);
+  return max - min;
 };
 
-calcTempAmplitude([3, 7, 4]);
+const amplitudeNew = calcTempAmplitudeNew(temperature);
+console.log(amplitudeNew);
+
+// problem 2
+// function receive 2 arrays of temperature
+// merge 2 arrays?
