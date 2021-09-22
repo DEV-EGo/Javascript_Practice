@@ -35,8 +35,8 @@ const calcTempAmplitudeBug = function (t1, t2) {
     const curTemp = temps[i];
     if (typeof curTemp === 'number') continue;
 
-    if (temps[i] > max) max = temps[i];
-    if (temps[i] < min) min = temps[i];
+    if (curTemp[i] > max) max = curTemp[i];
+    if (curTemp[i] < min) min = curTemp[i];
   }
   console.log(max, min);
   return max - min;
