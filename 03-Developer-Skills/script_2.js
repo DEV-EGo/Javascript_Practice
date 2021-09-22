@@ -9,6 +9,10 @@ const temperature = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
 // substract min from max (amplitude) & return it
 
 const calcTempAmplitudeNew = function (t1, t2) {
+  const temps = t1.concat(t2);
+
+  console.log(temps);
+
   let max = temps[0];
   let min = temps[0];
 
@@ -23,7 +27,7 @@ const calcTempAmplitudeNew = function (t1, t2) {
   return max - min;
 };
 
-const amplitudeNew = calcTempAmplitudeNew(temperature);
+const amplitudeNew = calcTempAmplitudeNew([3, 5, 1], [9, 0, 5]);
 console.log(amplitudeNew);
 
 // problem 2
